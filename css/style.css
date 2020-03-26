@@ -753,3 +753,93 @@ img {
     text-align: left;
     color: #6c6c6c;
 }
+
+/* 
+@media screen and (max-width: 1280px) {
+
+
+    .contaner {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    .slider {
+        height: 491.75px;
+    }
+
+    .product-img img {
+        width: 100%;
+    }
+
+    .new-product {
+        height: 511.78px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .contaner {
+        width: 100%;
+        margin: 0;
+    }
+    .header {
+        height: 64px;
+    }
+
+    .logo {
+        margin: 35px 35px;
+    }
+
+
+    .logo img {
+        width: 100%;
+    }
+
+    .nav {
+        margin: 35px 35px 0 15px;
+    }
+
+    .nav ul li {
+        margin-left: 10px;
+    }
+
+    .nav ul li a:first-child {
+        font-size: 10px;
+    }
+
+    .nav ul li a {
+        font-size: 10px;
+    }
+
+    .nav ul li a img {
+        position: relative;
+        top: 4px;
+        width: 14px;
+        height: 14px;
+    }
+
+    .slider {
+        max-height: 325.59px;
+    }
+
+    .order {
+        position: absolute;
+        width: 155px;
+        margin: 26px 10px 0 35px;
+    }
+    
+    .order h1 {
+        line-height: 24px;
+        font-weight: 100;
+        font-size: 22px;
+        margin: 14px 0 0 0;
+    }
+    
+    .order h3 {
+        margin: 0;
+        color: #43a047;
+        font-size: 8px;
+    }
+    
+    .order p {
+        font-size: 6px;
+    } */
