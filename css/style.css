@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic');
 
+@font-face {
+    font-family: Gotham;
+    src: url('../fonts/Gotham Cyrillic/GothaProLig.otf') format("opentype");
+}
+
 *,
 html,
 body {
@@ -222,7 +227,7 @@ body {
     color: #212121;
     border-bottom: 1px solid #6e6e6e;
     width: 30%;
-    
+
 }
 
 .new-product-link {
@@ -980,6 +985,232 @@ img {
     flex: 0 0 100%;
     margin: 50px 0;
 
+}
+
+/* стили для страницы product-detail.html */
+
+.product-deails-header {
+    height: 119px;
+}
+
+.nav-product {
+    width: 100%;
+    margin: 29px 0 0 0;
+    background-color: #f4f4f4;
+    padding: 27px 0 28px 0;
+}
+
+.menu-product {
+    margin: 29px auto 27px auto;
+    height: min-content;
+    text-align: center;
+    border-bottom: none;
+}
+
+.product-link {
+    margin: 28px 0 29px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    color: #6c6c6c;
+}
+
+.product-link-active {
+    color: #212121;
+}
+
+.product-link-item-first {
+    border-bottom: none;
+    margin-right: 0;
+}
+
+.product-link-item {
+    display: inline-block;
+
+}
+
+.product-link:hover {
+    border-bottom: 3px solid #212121;
+    color: #212121;
+}
+
+
+
+/* .product-link-active {
+    border-bottom: 3px solid #000;
+} */
+
+.product {
+    display: flex;
+    flex-direction: row;
+    margin: 71px 98px;
+}
+
+.product-img {
+    width: 50%;
+    margin-right: 28px;
+    /* border: 1px solid #000; */
+}
+
+.product-img img:hover {
+    outline: 1px solid #e6e6e6;
+    box-shadow: 0 0 2px 2px rgba(195, 195, 195, 0.335);
+
+}
+
+.product-img-link {
+    background-size: cover;
+    width: 100%;
+}
+
+.product-ing-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product-img-control {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.product-img-control img {
+    cursor: pointer;
+}
+
+.product-img-control:hover img{
+    opacity:0.5;
+    -moz-opacity:0.5;
+    filter: alpha(opacity=50) black;
+    -khtml-opacity: 0.5;
+    background-color:#000;
+    -webkit-filter: alpha(opacity=50) black;
+}
+
+.product-img-control img:hover {
+    outline: 1px solid #c3c3c3;
+    box-shadow: 0 0 2px 2px rgba(195, 195, 195, 0.335);
+}
+
+.product-price {
+    width: 50%;
+    margin: 0 26px 97px 28px;
+}
+
+.product-h3 {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: #212121;
+}
+
+.product-h2 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-top: 8px;
+    letter-spacing: 1.8px;
+    text-align: center;
+    color: #e53935;
+}
+
+.product-price-h1 {
+    font-family: Gotham;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+    margin: 21px auto;
+    color: #212121;
+   }
+
+.product-price-h1:hover {
+    color: #43a047;
+    font-weight: 500;
+   text-shadow: #ffffff 1px 0px, #ffffff 1px 1px, #ffffff 0px 1px, #ffffff -1px 1px, #04a51f 1px 2px;
+}
+
+.product-price-span {
+    font-family: Gotham;
+    font-size: 38px;
+}
+
+.product-button-order {
+    display: block;
+    padding: 27px 0 28px 0;
+    margin: 37px auto 49px auto;
+    border-radius: 35px;
+    box-shadow: 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
+    background-color: #f44336;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 0px;
+    letter-spacing: 4.4px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.product-button-order:hover {
+    box-shadow: inset 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
+}
+
+.product-text-p {
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #212121;
+}
+
+.product-text-hidden {
+    opacity: 0;
+}
+
+.product-text-p:hover+.product-text-hidden {
+    opacity: 1;
+}
+
+.product-catalog-link-first {
+    float: left;
+    font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+
+  color: #212121;
+  
+}
+
+.product-catalog-link {
+    font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 3.6px;
+  padding-top: 20px;
+  color: #212121;
+}
+
+.product-catalog-link:after{
+    content: "  " url('../img/arrow.png') ;
+}
+
+.product-catalog-link {
+    float: right;
+}
+
+.product-deails-catalog-header {
+   display: block;
+   height: 50px;
 }
 
 @media screen and (max-width: 1280px) {
